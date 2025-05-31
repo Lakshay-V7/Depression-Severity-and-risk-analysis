@@ -2,13 +2,13 @@
 
 This project explores the analysis and prediction of depression severity by leveraging **multimodal data** — combining **EEG signals** and **audio features**. We utilize advanced **machine learning** models such as **Convolutional Neural Networks (CNN)** and **Long Short-Term Memory (LSTM)** networks to capture both spatial and temporal dependencies in the data.
 
----
 
-## 🔍 Objective
+
+##  Objective
 
 To develop a reliable and interpretable system for analyzing depression severity and identifying associated risk factors using EEG and audio data. This system is intended to assist in early diagnosis and personalized treatment recommendations.
 
----
+
 
 ## Modalities Used
 
@@ -20,9 +20,9 @@ To develop a reliable and interpretable system for analyzing depression severity
   - Features extracted include MFCCs, pitch, energy, spectral features.
   - Normalized and processed into time series.
 
----
 
-## 🧠 Models Used
+
+##  Models Used
 
 - **CNN (Convolutional Neural Network):**
   - Used for spatial feature extraction from EEG signals.
@@ -32,7 +32,7 @@ To develop a reliable and interpretable system for analyzing depression severity
 
 The models were trained and evaluated separately and in combination to form a **multimodal fusion model**.
 
----
+
 
 ## Results
 
@@ -41,7 +41,7 @@ The models were trained and evaluated separately and in combination to form a **
 | Accuracy | *95.6* |
 
 
-#### ✅ Confusion Matrix
+#### Confusion Matrix
 
 ![Confusion Matrix](![image 1](https://github.com/user-attachments/assets/b968a334-b369-42a9-bb84-c4648287c371)
 )
@@ -52,7 +52,6 @@ The models were trained and evaluated separately and in combination to form a **
 
 Due to ethical constraints, the dataset cannot be publicly released. However, the models were trained on anonymized and preprocessed EEG + audio data obtained from KAGGLEat YY kHz.
 
----
 
 ## 📦 Requirements
 
